@@ -1,0 +1,128 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: #333333;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.add-task-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease-in-out;
+  margin-right: 10px; /* Espacio entre el input y el botón */
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  animation: fadeIn 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+li:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+li:hover {
+  background-color: #ecf0f1;
+  transform: scale(1.02);
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #d7d7d7;
+  transition: background-color 0.5s ease-in-out;
+}
+
+li.completed:hover {
+  background-color: #d0d0d0;
+  transform: scale(1.01);
+}
+
+li .delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li .delete-btn:hover {
+  background-color: #c0392b;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
