@@ -16,6 +16,8 @@ Demo
 1. Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Kiskodev92/todolist.git
+
+
 ```
 
 2. Navigate to the project directory:
@@ -26,6 +28,7 @@ cd todolist
 3. Install the dependencies:
 ```bash
 npm install
+npm create vite@latest
 ```
 
 4. Start the development server:
@@ -43,13 +46,6 @@ npm run dev
 ·To delete a task, click on the "Delete" button next to the task.
 
 
-# Technologies Used
-
-·React - A JavaScript library for building user interfaces.
-
-·Vite - A fast development build tool for modern web applications.
-
-·CSS - Styling the application for a clean and modern look.
 
 # Project Structure
 
@@ -61,9 +57,9 @@ todolist/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   ├── AddTask.jsx
-│   │   ├── TaskList.jsx
-│   │   └── TaskItem.jsx
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── TodoList.jsx
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
