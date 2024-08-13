@@ -16,8 +16,6 @@ Demo
 1. Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Kiskodev92/todolist.git
-
-
 ```
 
 2. Navigate to the project directory:
@@ -28,10 +26,15 @@ cd todolist
 3. Install the dependencies:
 ```bash
 npm install
-npm create vite@latest
 ```
 
-4. Start the development server:
+4. Check Node.js Configuration
+```bash
+node -v
+npm -v
+```
+
+5. Start the development server:
 ```bash
 npm run dev
 ```
