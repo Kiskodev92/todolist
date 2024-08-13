@@ -14,9 +14,6 @@ Demo
 ## Installation
 
 1. Clone the repository to your local machine:
-```bash
-git clone https://github.com/Kiskodev92/todolist.git
-```
 
 2. Navigate to the project directory:
 ```bash
@@ -69,6 +66,7 @@ todolist/
 ├── package.json
 ├── vite.config.js
 └── README.md
+└── requirements.txt
 
 ```
 # License
