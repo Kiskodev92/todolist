@@ -1,0 +1,24 @@
+# Requirements for TodoList React project
+
+# 1. Install Node.js (https://nodejs.org/)
+# Recommended version: 18.x.x or later
+
+# 2. Install npm (comes with Node.js)
+
+# 3. Clone the repository:
+# git clone https://github.com/Kiskodev92/todolist.git
+
+# 4. Navigate into the project directory:
+# cd YourRepository
+
+# 5. Install dependencies:
+npm install
+
+# 6. Start the development server:
+npm run dev
+
+# 7. To build the project for production:
+npm run build
+
+# 8. To preview the production build:
+npm run preview
