@@ -14,9 +14,6 @@ Demo
 ## Installation
 
 1. Clone the repository to your local machine:
-```bash
-git clone https://github.com/Kiskodev92/todolist.git
-```
 
 2. Navigate to the project directory:
 ```bash
@@ -28,7 +25,13 @@ cd todolist
 npm install
 ```
 
-4. Start the development server:
+4. Check Node.js Configuration
+```bash
+node -v
+npm -v
+```
+
+5. Start the development server:
 ```bash
 npm run dev
 ```
@@ -43,13 +46,6 @@ npm run dev
 ·To delete a task, click on the "Delete" button next to the task.
 
 
-# Technologies Used
-
-·React - A JavaScript library for building user interfaces.
-
-·Vite - A fast development build tool for modern web applications.
-
-·CSS - Styling the application for a clean and modern look.
 
 # Project Structure
 
@@ -61,15 +57,16 @@ todolist/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   ├── AddTask.jsx
-│   │   ├── TaskList.jsx
-│   │   └── TaskItem.jsx
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoItem.jsx
+│   │   └── TodoList.jsx
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
 ├── package.json
 ├── vite.config.js
 └── README.md
+└── requirements.txt
 
 ```
 # License
